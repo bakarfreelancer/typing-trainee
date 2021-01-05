@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time hide">
+            <label id="minutes">00</label>
+            <label> : </label>
+            <label id="seconds">00</label>
+        </div>
+        <h1>TYPING TRAINEE</h1>
+
+        <div>
+            <p class="des">This is a small typing practice app for learning some practical examples of JavaScripts.</p>
+            <button class="start" onclick="start()"> Start Typing</button>
+
+        </div>
+
+        <div class="typingArea hide">
+            <div>
+                <p class="given-text"></p>
+            </div>
+            <div>
+                <h4 class="error"><br></h4>
+            </div>
+            <div>
+                <textarea name="" id="" cols="85" rows="60" oninput="check()" class="entered-text"></textarea>
+            </div>
+            <div class="buttons-parent">
+                <button onclick="restart() " class="restart">Restart</button><br /> <button onclick="Type()"
+                    class="new withrestartnew">New</button>
+            </div>
+
+        </div>
+        <div class="completed hide">
+            <h3>Completed</h3>
+            <p class="timeTaken">Time Taken: 00 min and 00 seconds.</p>
+            <p class="typingSpeed">Your Average typing speed is <b>0</b> wpm.</p>
+            <button onclick="Type()" class="new"> &nbsp;New&nbsp;</button>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
