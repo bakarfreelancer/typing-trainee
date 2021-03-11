@@ -2,4 +2,4 @@
 
 A small typing application in javascript
 
-View live demo on [96.theoperatingsystems.com/typing-trainee](https://96.theoperatingsystems.com/typing-trainee)
+View live demo on [projects.theoperatingsystems.com/typing-trainee](https://projects.theoperatingsystems.com/typing-trainee)
