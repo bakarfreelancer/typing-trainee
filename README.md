@@ -2,4 +2,4 @@
 
 A small typing application in javascript
 
-View live demo on [projects.theoperatingsystems.com/typing-trainee](https://projects.theoperatingsystems.com/typing-trainee)
+Read blog on [Dot Code](https://dotcodeofficial.com/build-typing-game-in-javascript/)
